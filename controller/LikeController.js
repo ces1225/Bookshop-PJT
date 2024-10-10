@@ -33,8 +33,6 @@ const removeLike = (req,res) => {
             }
             return res.status(StatusCodes.OK).json(results)
     })  
-    
-
 };
 
 module.exports ={
